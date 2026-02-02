@@ -1,0 +1,34 @@
+.applied-job {
+  width: 100%;
+}
+
+.table-right {
+  text-align: right;
+}
+
+.no-data {
+  text-align: center;
+  padding: 20px;
+  color: #6b7280;
+}
+
+/* Status badge colors */
+.status-badge {
+  color: #ffffff;
+  padding: 4px 10px;
+  border-radius: 9999px;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.status-badge.rejected {
+  background-color: #ef4444;
+}
+
+.status-badge.accepted {
+  background-color: #16a34a;
+}
+
+.status-badge.pending {
+  background-color: #6b7280;
+}

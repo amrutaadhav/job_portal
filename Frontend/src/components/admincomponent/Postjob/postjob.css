@@ -1,0 +1,76 @@
+.postjob-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin: 20px 0;
+}
+
+.postjob-form {
+  padding: 32px;
+  max-width: 900px;
+  border: 1px solid #6b7280;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.postjob-form:hover {
+  box-shadow: 0 10px 30px rgba(239, 68, 68, 0.4);
+}
+
+.postjob-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.postjob-input {
+  margin-top: 4px;
+}
+
+.postjob-input:hover {
+  box-shadow: 0 0 8px rgba(59, 130, 246, 0.6);
+}
+
+.company-select {
+  width: 180px;
+}
+
+.postjob-btn-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.postjob-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.postjob-btn:hover {
+  background-color: #2563eb;
+}
+
+.warning-text {
+  margin-top: 12px;
+  text-align: center;
+  color: #dc2626;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.loader {
+  margin-right: 8px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

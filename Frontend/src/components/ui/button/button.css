@@ -1,0 +1,106 @@
+/* Base button styles */
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  white-space: nowrap;
+  border-radius: 0.375rem; /* rounded-md */
+  font-size: 0.875rem; /* text-sm */
+  font-weight: 500;
+  transition: background-color 0.2s, color 0.2s;
+  outline: none;
+  cursor: pointer;
+}
+
+.button:disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.button svg {
+  pointer-events: none;
+  width: 1rem;
+  height: 1rem;
+  flex-shrink: 0;
+}
+
+/* Variants */
+.button.default {
+  background-color: #3b82f6; /* primary */
+  color: white; /* primary-foreground */
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.button.default:hover {
+  background-color: rgba(59, 130, 246, 0.9);
+}
+
+.button.destructive {
+  background-color: #ef4444; /* destructive */
+  color: white; /* destructive-foreground */
+  box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+}
+
+.button.destructive:hover {
+  background-color: rgba(239, 68, 68, 0.9);
+}
+
+.button.outline {
+  border: 1px solid #d1d5db; /* input */
+  background-color: white; /* background */
+  box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+}
+
+.button.outline:hover {
+  background-color: #f3f4f6; /* accent */
+  color: #111827; /* accent-foreground */
+}
+
+.button.secondary {
+  background-color: #6b7280; /* secondary */
+  color: white; /* secondary-foreground */
+  box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+}
+
+.button.secondary:hover {
+  background-color: rgba(107, 114, 128, 0.8);
+}
+
+.button.ghost {
+  background-color: transparent;
+  color: #111827; /* accent-foreground */
+}
+
+.button.ghost:hover {
+  background-color: #f3f4f6; /* accent */
+}
+
+.button.link {
+  background-color: transparent;
+  color: #3b82f6; /* primary */
+  text-decoration: underline;
+}
+
+/* Sizes */
+.button.default {
+  height: 2.25rem; /* h-9 */
+  padding: 0 1rem; /* px-4 */
+}
+
+.button.sm {
+  height: 2rem; /* h-8 */
+  padding: 0 0.75rem; /* px-3 */
+  font-size: 0.75rem; /* text-xs */
+}
+
+.button.lg {
+  height: 2.5rem; /* h-10 */
+  padding: 0 2rem; /* px-8 */
+}
+
+.button.icon {
+  height: 2.25rem; /* h-9 */
+  width: 2.25rem; /* w-9 */
+  padding: 0;
+}

@@ -1,0 +1,32 @@
+.company-create-container {
+  max-width: 56rem; /* max-w-4xl */
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.company-create-header {
+  margin-top: 2.5rem; /* my-10 */
+  margin-bottom: 2.5rem;
+}
+
+.company-create-title {
+  font-weight: 700; /* font-bold */
+  font-size: 1.5rem; /* text-2xl */
+}
+
+.company-create-subtitle {
+  color: #4b5563; /* text-gray-600 */
+}
+
+.company-input {
+  margin-top: 0.5rem; /* my-2 */
+  margin-bottom: 0.5rem;
+}
+
+.company-create-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* gap-2 */
+  margin-top: 2.5rem; /* my-10 */
+}

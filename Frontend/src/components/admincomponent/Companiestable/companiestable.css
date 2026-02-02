@@ -1,0 +1,39 @@
+.companies-table-wrapper {
+  width: 100%;
+}
+
+.table-action-head {
+  text-align: right;
+}
+
+.table-action-cell {
+  text-align: right;
+  cursor: pointer;
+}
+
+.action-icon {
+  cursor: pointer;
+}
+
+/* Popover */
+.popover-content {
+  width: 8rem; /* w-32 */
+}
+
+.popover-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* gap-2 */
+  width: fit-content;
+  cursor: pointer;
+}
+
+.popover-icon {
+  width: 1rem; /* w-4 */
+  height: 1rem;
+}
+
+.no-companies {
+  display: inline-block;
+  padding: 0.5rem 0;
+}

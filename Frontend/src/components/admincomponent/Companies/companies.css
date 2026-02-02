@@ -1,0 +1,22 @@
+.companies-container {
+  max-width: 72rem; /* max-w-6xl */
+  margin: 2.5rem auto; /* my-10 */
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.companies-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1.25rem; /* my-5 */
+  margin-bottom: 1.25rem;
+}
+
+.companies-input {
+  width: fit-content;
+}
+
+.companies-table {
+  width: 100%;
+}

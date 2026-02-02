@@ -1,0 +1,30 @@
+/* Empty CSS file for now, add your styles here */
+.filter-container {
+  background-color: white;
+  border-radius: 8px;
+  padding: 16px;
+  width: 100%;
+}
+
+.filter-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.filter-divider {
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+
+.filter-subtitle {
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 12px;
+}
+
+.filter-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 6px 0;
+}

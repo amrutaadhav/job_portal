@@ -1,0 +1,13 @@
+.applicants-container {
+  max-width: 80rem; /* max-w-7xl */
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.applicants-title {
+  font-weight: 700; /* font-bold */
+  font-size: 1.25rem; /* text-xl */
+  margin-top: 1.25rem; /* my-5 */
+  margin-bottom: 1.25rem;
+}

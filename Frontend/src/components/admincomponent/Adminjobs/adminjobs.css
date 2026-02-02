@@ -1,0 +1,22 @@
+.admin-jobs-container {
+  max-width: 72rem; /* same as max-w-6xl */
+  margin: 2.5rem auto; /* my-10 */
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.admin-jobs-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1.25rem; /* my-5 */
+  margin-bottom: 1.25rem;
+}
+
+.admin-jobs-input {
+  width: fit-content;
+}
+
+.admin-jobs-table {
+  width: 100%;
+}

@@ -1,0 +1,58 @@
+/* Base badge styles */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 6px;          /* rounded-md */
+  border: 1px solid transparent;
+  padding: 2px 10px;           /* px-2.5 py-0.5 */
+  font-size: 12px;             /* text-xs */
+  font-weight: 600;            /* font-semibold */
+  transition: background-color 0.2s, color 0.2s;
+  outline: none;
+}
+
+/* Focus styles */
+.badge:focus {
+  outline: none;
+}
+
+.badge:focus-visible {
+  box-shadow: 0 0 0 2px #6366f1, 0 0 0 4px #ffffff; /* ring + ring-offset */
+}
+
+/* ===== Variants ===== */
+
+.badge-default {
+  background-color: #2563eb;   /* bg-primary */
+  color: #ffffff;              /* text-primary-foreground */
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+}
+
+.badge-default:hover {
+  background-color: rgba(37, 99, 235, 0.8); /* hover:bg-primary/80 */
+}
+
+.badge-secondary {
+  background-color: #f1f5f9;   /* bg-secondary */
+  color: #0f172a;              /* text-secondary-foreground */
+}
+
+.badge-secondary:hover {
+  background-color: rgba(241, 245, 249, 0.8);
+}
+
+.badge-destructive {
+  background-color: #dc2626;   /* bg-destructive */
+  color: #ffffff;              /* text-destructive-foreground */
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+}
+
+.badge-destructive:hover {
+  background-color: rgba(220, 38, 38, 0.8);
+}
+
+.badge-outline {
+  background-color: transparent;
+  color: #0f172a;              /* text-foreground */
+  border: 1px solid #e5e7eb;
+}

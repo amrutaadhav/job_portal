@@ -1,0 +1,41 @@
+.applicants-table-wrapper {
+  width: 100%;
+}
+
+.table-action-head {
+  text-align: right;
+}
+
+.table-action-cell {
+  float: right;
+  cursor: pointer;
+}
+
+.action-icon {
+  cursor: pointer;
+}
+
+/* Resume link */
+.resume-link {
+  color: #2563eb; /* text-blue-600 */
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.resume-link:hover {
+  text-decoration: underline;
+}
+
+/* Popover */
+.popover-content {
+  width: 8rem; /* w-32 */
+}
+
+.status-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: fit-content;
+  margin: 0.5rem 0; /* my-2 */
+  cursor: pointer;
+}

@@ -1,0 +1,35 @@
+.jobs-page {
+  font-family: Arial, sans-serif;
+}
+
+.jobs-container {
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.jobs-grid {
+  display: flex;
+  gap: 20px;
+}
+
+/* Filter column */
+.filter-column {
+  width: 20%;
+}
+
+/* Jobs list column */
+.jobs-list {
+  flex: 1;
+  height: 88vh;
+  overflow-y: auto;
+  padding-bottom: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.no-job {
+  font-size: 1rem;
+  color: #555;
+  padding: 20px;
+}

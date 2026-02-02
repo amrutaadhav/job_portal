@@ -1,0 +1,44 @@
+/* Radio Group container */
+.radio-group {
+  display: grid;
+  gap: 0.5rem; /* gap-2 */
+}
+
+/* Radio Item */
+.radio-item {
+  aspect-ratio: 1 / 1; /* aspect-square */
+  height: 1rem; /* h-4 */
+  width: 1rem;  /* w-4 */
+  border-radius: 50%; /* rounded-full */
+  border: 1px solid #3b82f6; /* border-primary */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05); /* shadow */
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.radio-item:focus {
+  outline: none;
+  box-shadow: 0 0 0 1px #3b82f6; /* focus-visible:ring-1 ring-ring */
+}
+
+.radio-item:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+/* Indicator */
+.radio-indicator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Circle icon inside indicator */
+.radio-icon {
+  width: 0.875rem; /* h-3.5 */
+  height: 0.875rem; /* w-3.5 */
+  fill: #3b82f6; /* fill-primary */
+}

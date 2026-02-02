@@ -1,0 +1,26 @@
+.avatar-root {
+  position: relative;
+  display: flex;
+  height: 40px;        /* h-10 */
+  width: 40px;         /* w-10 */
+  flex-shrink: 0;      /* shrink-0 */
+  overflow: hidden;
+  border-radius: 50%;  /* rounded-full */
+}
+
+.avatar-image {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1 / 1; /* aspect-square */
+  object-fit: cover;
+}
+
+.avatar-fallback {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #f1f5f9; /* bg-muted (neutral light) */
+}
