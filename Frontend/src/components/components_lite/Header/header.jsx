@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button } from "../ui/button";
+import { Button } from "./components/ui/button/button.jsx";
 import { Search } from "lucide-react";
 import { PiBuildingOfficeBold } from "react-icons/pi";
 import { useDispatch } from "react-redux";

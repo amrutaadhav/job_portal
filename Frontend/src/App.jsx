@@ -12,20 +12,20 @@ import PrivacyPolicy from "./components/components_lite/Privacypolicy/privacypol
 import TermsofService from "./components/components_lite/Termsofservice/termsofservice.jsx";
 
 // Authentication
-import Login from "./components/authentication/Login";
-import Register from "./components/authentication/Register";
+import Login from "./components/authentication/Login/login.js";
+import Register from "./components/authentication/Register/register.js";
 
 // Admin Components
-import Companies from "./components/admincomponent/Companies";
-import CompanyCreate from "./components/admincomponent/CompanyCreate";
-import CompanySetup from "./components/admincomponent/CompanySetup";
-import AdminJobs from "./components/admincomponent/AdminJobs";
-import PostJob from "./components/admincomponent/PostJob";
-import Applicants from "./components/admincomponent/Applicants";
-import ProtectedRoute from "./components/admincomponent/ProtectedRoute";
+import Companies from "./components/admincomponent/Companies/companies.jsx";
+import CompanyCreate from "./components/admincomponent/CompanyCreate/companycreate.jsx";
+import CompanySetup from "./components/admincomponent/CompanySetup/companysetup.jsx";
+import AdminJobs from "./components/admincomponent/AdminJobs/adminjobs.jsx";
+import PostJob from "./components/admincomponent/PostJob/postjob.jsx";
+import Applicants from "./components/admincomponent/Applicants/applicants.jsx";
+import ProtectedRoute from "./components/admincomponent/ProtectedRoute/protectedroute.jsx";
 
 // Creator
-import Creator from "./components/creator/Creator";
+import Creator from "./components/creator/creator.jsx";
 
 const appRouter = createBrowserRouter([
   { path: "/", element: <Home /> },
